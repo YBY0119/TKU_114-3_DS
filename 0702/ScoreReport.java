@@ -22,5 +22,6 @@ System.out.println("Java: " + javaScore);
 System.out.println("English: " + EnglishScore);
 System.out.println("Math: " + MathScore);
 System.out.println("平均: " + average);
+sc.close();
 }
 }
