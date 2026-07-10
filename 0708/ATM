@@ -1,9 +1,15 @@
-問題：輸入 3 筆成績，計算總分與平均。
+拆解「ATM 提款」問題
 
 input:
-
+--card_info
+--pin(password)
+--withdraw_amount(提款金额)
 
 process:
-
-
+--檢查pin是否正確
+--檢查balance(餘額) >= withdraw_amount
+--檢查atm_cash(ATM現金) >= withdraw_amount
 output:
+--cash
+--update balance (最新餘額更新)
+--card_back
