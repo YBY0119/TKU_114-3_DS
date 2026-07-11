@@ -4,11 +4,11 @@ public class QuantityValidation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("請輸入數量");
+        System.out.print("請輸入數量: ");
         int quantity = sc.nextInt();
 
         while (quantity <= 0 ) {
-            System.out.print("數量不合法，請重新輸入");
+            System.out.print("數量不合法，請重新輸入: ");
             quantity = sc.nextInt();
         }
 
